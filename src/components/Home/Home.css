@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home > button {
+  margin-top: 20px;
+}
+
+.home__logout {
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid red;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+
+.home__deleteAccount {
+  height: 60px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid black;
+  text-transform: uppercase;
+  background-color: red;
+  color: black;
+}
